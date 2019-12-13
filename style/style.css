@@ -1,0 +1,88 @@
+html {
+    background-image: url(../images/Bimag.jpg);
+    font-family: 'Raleway', sans-serif;
+    min-height: 800px;
+}
+
+body {
+    margin: 8px auto;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 730px;
+    padding-top:20px;
+    background-image: url( "Bimag.jpg");
+    background-repeat: no-repeat;
+}
+
+
+section {
+    border-top: 2px solid rgba(231, 202, 73, 0.864);;
+}
+
+article {
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+    border: 2px solid rgba(223, 185, 16, 0.864);;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+  
+  li {
+float: left;
+}
+
+
+  
+  li a {
+    display: block;
+    color: rgb(24, 21, 21);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+
+    float: right;
+    padding: 5px;
+    margin-bottom: 50px;
+    /* align-items: ; */
+   
+}
+  
+  li a:hover:not(.active) {
+    background-color: rgba(16, 223, 209, 0.864);
+}
+
+header {
+    padding: 0px;
+    text-align: center;
+}
+
+footer {
+    border-top: solid 2px rgba(223, 216, 16, 0.864);
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.864);
+    font-family: serif;
+}
+.hej{
+    width: 255px;
+}
+img{
+    width:8%;
+    height:8%;
+}
