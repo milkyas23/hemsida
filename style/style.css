@@ -16,7 +16,8 @@ body {
 
 
 section {
-    border-top: 2px solid rgba(231, 202, 73, 0.864);;
+    border-top:2px solid rgba(223, 185, 16, 0.864);    
+
 }
 
 article {
@@ -24,8 +25,8 @@ article {
 }
 
 nav {
-    padding: 10px;
-    border: 2px solid rgba(223, 185, 16, 0.864);;    
+    padding: 2%;
+    border:2px solid rgba(223, 185, 16, 0.864);         
 }
 
 ul {
@@ -53,10 +54,7 @@ float: left;
 
 input {
 
-    float: right;
     padding: 5px;
-    margin-bottom: 50px;
-    /* align-items: ; */
    
 }
   
@@ -66,7 +64,6 @@ input {
 
 header {
     padding: 0px;
-    text-align: center;
 }
 
 footer {
@@ -79,10 +76,18 @@ h1 {
     background-color: rgba(255, 255, 255, 0.864);
     font-family: serif;
 }
-.hej{
-    width: 255px;
-}
+
 img{
     width:8%;
     height:8%;
+    margin-right: 10%;
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+}
+.hhh{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
